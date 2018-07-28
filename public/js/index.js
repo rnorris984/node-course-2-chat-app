@@ -4,6 +4,8 @@ var socket = io();
                console.log('Connected to server');
             });
 
+            
+
             socket.on('disconnect', function () {
                 console.log('Disconnected from server');
             });
